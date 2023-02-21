@@ -27,11 +27,11 @@ const Detail = () => {
 
     return (
         <>
-            <div>
-                详情页
-                <NavLink to="/home">跳到首页</NavLink>
-                <NavLink to="/dashboard">跳到dash</NavLink>
-                <div onClick={handleClick}>点我</div>
+            <div style={{ display: 'flex', flexDirection: 'column', background: '#2A2' }}>
+                Detail Page
+                <NavLink to="/home">Jump to Home</NavLink>
+                <NavLink to="/dashboard">Jump to Dashboard</NavLink>
+                <div style={{ cursor: 'pointer' }} onClick={handleClick}>Click me and test mock data, F12 then check console.</div>
             </div>
         </>
     )

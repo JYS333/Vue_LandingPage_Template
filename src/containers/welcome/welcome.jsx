@@ -3,7 +3,7 @@ import React from "react";
 const Welcome = () => {
     return (
         <div>
-            欢迎页
+            Dashboard Page1 Welcome Page
         </div>
     )
 }

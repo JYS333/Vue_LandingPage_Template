@@ -16,13 +16,13 @@ const Home = () => {
     return (
         <>
             <div className='HomePage'>
-                {/* 顶部导航 */}
+                {/* Top Nav */}
                 <div className='TopNav'>
                     <div className='NavLeft'>
                         <SlackOutlined style={{ fontSize: '32px', color: '#FFF' }} /> LOGO
                     </div>
                     <div className='NavRight'>
-                        <NavLink style={{ marginRight: '5px', cursor: 'pointer', textDecoration: 'none', color: '#fff' }} to="/detail">Documentation</NavLink>
+                        <NavLink style={{ marginRight: '5px', cursor: 'pointer', textDecoration: 'none', color: '#fff' }} to="/detail">Documentation: jump to other routes</NavLink>
                         <div className='IconList'>
                             <div className='Icon'>
                                 <AmazonOutlined />
@@ -49,7 +49,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                {/* 简介 */}
+                {/* contents */}
                 <div className='IntroPart'>
                     <div className='IntroLeft'>
                         <div className='TopText'>IPOR: The heartbeat of DeFi</div>
