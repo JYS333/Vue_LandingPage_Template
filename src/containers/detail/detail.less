@@ -1,11 +1,14 @@
-.HomePage {
+.DetailPanel {
     background-color: #000c4e;
     .TopNav {
         padding: 15px 200px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-
+        a{
+            text-decoration: none;
+            color: aliceblue;
+        }
         .NavLeft {
             display: flex;
             justify-content: center;
@@ -59,64 +62,31 @@
             }
         }
     }
-
-    .IntroPart {
-        padding: 100px 200px;
+    .Content{
+        height: 400px;
+        background: linear-gradient(to bottom right, rgb(8, 8, 92), rgb(18, 3, 32));
         display: flex;
-        justify-content: space-between;
-        background-color: #0b185e;
-
-        .IntroLeft {
+        flex-direction: row;
+        .ContentLeft{
             width: 40%;
             display: flex;
             flex-direction: column;
+            font-size: 50px;
+            justify-content: center;
             align-items: center;
-            justify-content: space-around;
-
-            .TopText {
-                font-size: 50px;
+            a{ 
+                text-decoration: none;
                 color: aliceblue;
-            }
-
-            .MiddleText {
-                font-size: 20px;
-                color: aliceblue;
-            }
-
-            .JumpButton {
-                display: flex;
-                background-color: rgb(42, 21, 104);
-                height: 32px;
-                border-radius: 32px;
-                // justify-content: space-between;
-                align-items: center;
-                padding: 2px;
-                width: 150px;
-
-                .ButtonLogo {
-                    font-size: 20px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    width: 30px;
-                    height: 30px;
-                    background-color: rgb(41, 71, 146);
-                    border-radius: 30px;
-                }
-
-                .ButtonText {
-                    margin-left: 20px;
-                    font-size: 20px;
-                    color: aliceblue;
-                }
             }
         }
-
-        .IntroRight {
-            img {
-                width: 600px;
-            }
-
+        .ContentRight{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            font-size: 50px;
+            justify-content: center;
+            align-items: center;
+            color: antiquewhite;
         }
     }
 }

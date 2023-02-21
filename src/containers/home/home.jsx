@@ -19,10 +19,10 @@ const Home = () => {
                 {/* Top Nav */}
                 <div className='TopNav'>
                     <div className='NavLeft'>
-                        <SlackOutlined style={{ fontSize: '32px', color: '#FFF' }} /> LOGO
+                        <SlackOutlined style={{ fontSize: '32px', color: '#FFF' }} />
                     </div>
                     <div className='NavRight'>
-                        <NavLink style={{ marginRight: '5px', cursor: 'pointer', textDecoration: 'none', color: '#fff' }} to="/detail">Documentation: jump to other routes</NavLink>
+                        <NavLink style={{ marginRight: '5px', cursor: 'pointer', textDecoration: 'none', color: '#fff' }} to="/detail">jump to other routes</NavLink>
                         <div className='IconList'>
                             <div className='Icon'>
                                 <AmazonOutlined />
