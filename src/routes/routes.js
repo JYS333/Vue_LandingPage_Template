@@ -4,14 +4,14 @@ import { Space, Spin } from "antd";
 
 // import Home from "../containers/home/home";
 // import NotFound from "../containers/404/404";
-// import DashBoard from "../containers/dashBoard/dashBoard";
+// import DashBoard from "../containers/dashboard/dashboard";
 // import Welcome from "../containers/welcome/welcome";
 // import User from "../containers/user/user";
 // import Detail from "../containers/detail/detail";
 
 const Home = lazy(() => import('../containers/home/home'));
 const Detail = lazy(() => import('../containers/detail/detail'));
-const DashBoard = lazy(() => import('../containers/dashBoard/dashBoard'));
+const DashBoard = lazy(() => import('../containers/dashboard/dashboard'));
 const Welcome = lazy(() => import('../containers/welcome/welcome'));
 const User = lazy(() => import('../containers/user/user'));
 const NotFound = lazy(() => import('../containers/404/404'));
