@@ -8,10 +8,10 @@
                     <el-col :sm="24" :md="24" :lg="12" :xl="12">
                         <div class="panel1-title">—  WHO WE ARE?</div>
                         <div class="panel1-text">
-                            CryptoManufaktur provides technological consulting in the field of cryptocurrency, including authentication of cryptocurrency data using blockchain technology.
+                            CryptoManufaktur absasd technological sadfdsd in the field of sdfsdsfssf, including authentication of sdfsfsd data using sdfsffvd bdbfbf.
                             <br>
                             <br>
-                            We run Chainlink nodes, which collect price feed data from multiple off-chain data sources, come to a median consensus with other node operators, and then place the resulting data on-chain. We’d be happy to work with you if you have a need to make off-chain data available on-chain.
+                            We run cbvcbbc nodes, which cvbcvbcbv price feed data from fgdbgfgb dfbdfbd data sources, come to a median fdsfefs with other node sdfgdb, and then place the resulting data sdfsdf-chain. We’d be happy to work with you if you have a need to make osdfvsdn data available osdvsfv.
                             <br>
                             <br>
                             The firm is founded on three core competencies which the team leverages across every facet of their work.
@@ -44,10 +44,7 @@
                                 CryptoManufaktur provides technological consulting in the field of cryptocurrency, including authentication of cryptocurrency data using blockchain technology.
                                 <br>
                                 <br>
-                                We run Chainlink nodes, which collect price feed data from multiple off-chain data sources, come to a median consensus with other node operators, and then place the resulting data on-chain. We’d be happy to work with you if you have a need to make off-chain data available on-chain.
-                                <!-- <br> -->
-                                <!-- <br> -->
-                                <!-- The firm is founded on three core competencies which the team leverages across every facet of their work: -->
+                                We run cbvcbbc nodes, which cvbcvbcbv price feed data from fgdbgfgb dfbdfbd data sources, come to a median fdsfefs with other node sdfgdb, and then place the resulting data sdfsdf-chain. We’d be happy to work with you if you have a need to make osdfvsdn data available osdvsfv.
                                 <br>
                                 <br>
                                 <CoolButton>Contact</CoolButton>
@@ -63,7 +60,7 @@
                         <div class="panel3-left">
                             <div class="title">— WHAT WE DO?</div>
                             <div class="desc">About Details</div>
-                            <div class="text">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</div>
+                            <div class="text">Asdac asd publishiadng pdadackages and web page ediasdtors nodasdw use Lorasdem Ipsum asc cacac default model text, and a search for 'adcsa ipsum' will uncover many web sites still in their asdsa.</div>
                             <div class="button">Find Out More</div>
                         </div>
                     </el-col>

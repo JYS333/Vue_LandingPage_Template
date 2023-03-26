@@ -5,7 +5,7 @@ Vue.use(VueRouter);
 
 // import router
 import Home from '@/pages/Home/Home';
-import Detail from '@/pages/Detail/Detail.vue';
+import CountDown from '@/pages/CountDown/CountDown.vue';
 
 // push
 const originalPush = VueRouter.prototype.push
@@ -32,9 +32,9 @@ export default new VueRouter({
             // }
         },
         {
-            name: 'detail',
-            path: '/detail',
-            component: Detail,
+            name: 'CountDown',
+            path: '/countdown',
+            component: CountDown,
             //     meta:{
             //         show:false
             //     }

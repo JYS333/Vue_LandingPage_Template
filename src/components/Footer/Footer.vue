@@ -2,34 +2,10 @@
   <div class="footer-container">
     <div class="footer-logo">
         <div class="img-wrap">
-            <img src="../../assets/numinaS.png">
-            <!-- <div class="logo-text">NuminaS</div> -->
+            <div class="logo-text">LOGO</div>
         </div>
-        <!-- <div class="logo-down">
-            <div class="down-wrap">
-                <div class="down-title">
-                    Intro
-                </div>
-                <div class="down-text">
-                    The capitalized N can be imagined as a chain, which fits the meaning of Blockchain.
-                    <br>
-                    The logo also looks like a broken circle, which means decentralized.
-                </div>
-            </div>
-            <div class="down-wrap">
-                <div class="down-title">
-                    Text
-                </div>
-                <div class="down-text">
-                    Menu1
-                </div>
-                <div class="down-text">
-                    Menu2
-                </div>
-            </div>
-        </div> -->
     </div>
-    <div class="footer-copyrights">Copyright © 2023 NuminaS. All Rights Reserved.</div>
+    <div class="footer-copyrights">Copyright © 2023 Company. All Rights Reserved.</div>
     <div class="footer-media">
         <div class="logo-wrap">
             <img src="../../assets/github.png" alt="">
@@ -84,6 +60,8 @@ export default {
                     justify-content: center;
                     color: #28D0A8;
                     font-weight: 500;
+                    font-size: 30px;
+                    margin: 10px 0;
                 }
             }
             .logo-down{

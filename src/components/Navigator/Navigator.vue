@@ -2,7 +2,7 @@
     <div :class="{isWhite:isWhite}" class="nav-container">
         <div class="nav-left">
             <div class="nav-logo">
-                NuminaS
+                LOGO
             </div>
             <div class="nav-menu">
                 <div class="menu-item">
@@ -15,7 +15,7 @@
                     Service
                 </div>
                 <div class="menu-item">
-                    <router-link to="/detail">CountDown</router-link>
+                    <router-link style="color: currentColor;" to="/countdown">CountDown</router-link>
                 </div>
             </div>
         </div>
