@@ -44,7 +44,6 @@ export default {
             } else {
                 this.isReached = false;
             }
-            console.log(this.isReached);
         }
     },
     mounted() {

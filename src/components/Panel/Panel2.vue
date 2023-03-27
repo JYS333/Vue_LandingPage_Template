@@ -1,5 +1,5 @@
 <template>
-    <div class="panel2">
+    <div id="panel2" class="panel2">
         <div class="panel2-title" :class="{showup:isReached}">- Product Summary / Call to Action -</div>
         <div class="panel2-content">
             <el-row :gutter="50">
@@ -37,8 +37,7 @@
     methods: {
         scrolling() {
             let scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
-            // getBoundingClientRect()
-            if (scrollTop >= 630) { // 需要根据位置实时修改
+            if (scrollTop >= 630) { // 需要根据位置选择性修改
                 this.isReached = true;
             } else {
                 this.isReached = false;
@@ -75,21 +74,21 @@
       to {transform:translateX(0); opacity: 1;}
   }
   .showup{
-    animation: showup 1s 1 ease-in-out;
+        animation: showup 1.5s ease-in-out;
     }
     @keyframes showup{
-    0%{
-        opacity: 0;;
-    }
-    100%{
-        opacity: 1;
-    }
+        0%{
+            opacity: 0;;
+        }
+        100%{
+            opacity: 1;
+        }
     }
   .panel2{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 50px 0 120px;
+        margin: 50px 0 140px;
         padding: 0 180px;
         .panel2-title{
             color: #28D0A8;

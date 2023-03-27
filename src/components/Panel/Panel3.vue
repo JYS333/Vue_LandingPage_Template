@@ -1,7 +1,7 @@
 <template>
     <div class="panel3">
         <el-row class="panel3-content" :gutter="30">
-            <el-col class="colLeft" :sm="24" :md="24" :lg="12" :xl="12">
+            <el-col :class="{colLeft: isReached}" :sm="24" :md="24" :lg="12" :xl="12">
                 <div class="panel3-left">
                     <div class="title">— WHAT WE DO?</div>
                     <div class="desc">About Details</div>
@@ -9,7 +9,7 @@
                     <div class="button">Find Out More</div>
                 </div>
             </el-col>
-            <el-col class="colRight" :sm="24" :md="24" :lg="12" :xl="12">
+            <el-col :class="{colRight: isReached}" :sm="24" :md="24" :lg="12" :xl="12">
                 <div class="panel3-right">
                     <div class="color-card color1">
                         <div class="logo">
@@ -36,6 +36,30 @@
   <script>
   export default {
     name:'Panel1',
+    data() {
+        return {
+            isReached: false, // 是否达到当前卡片的位置
+        }
+    },
+    methods: {
+        scrolling() {
+            let scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+            if (scrollTop >= 1200) { // 需要根据位置选择性修改
+                this.isReached = true;
+            } else {
+                this.isReached = false;
+            }
+            // if (scrollTop >= 200) { // 是否让动画一次性
+            //     window.removeEventListener("scroll", this.scrolling, true);
+            // }
+        }
+    },
+    mounted() {
+        window.addEventListener("scroll", this.scrolling, true);
+    },
+    destroyed(){
+        window.removeEventListener("scroll", this.scrolling, true);
+    }
   }
   </script>
   

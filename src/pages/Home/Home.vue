@@ -13,13 +13,13 @@
             <!-- <el-divider></el-divider> -->
             <Panel3 />
             <!-- <el-divider></el-divider> -->
-            <InfoCardVue />
             <div class="panel4">
                 <el-row :gutter="10">
-                    <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12"><PieChart /></el-col>
                     <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12"><AreaChart /></el-col>
+                    <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12"><PieChart /></el-col>
                 </el-row>
             </div>
+            <InfoCardVue />
         </div>
         <!-- 底部 -->
         <Footer></Footer>
@@ -80,6 +80,7 @@ import AreaChart from '@/components/AreaChart/AreaChart.vue';
         // margin-bottom: 100px;
         .panel4{
             padding: 0 200px;
+            margin-bottom: 120px;
         }
     }
 }
