@@ -6,6 +6,7 @@ Vue.use(VueRouter);
 // import router
 import Home from '@/pages/Home/Home';
 import CountDown from '@/pages/CountDown/CountDown.vue';
+import Service from '@/pages/Service/Service.vue'
 
 // push
 const originalPush = VueRouter.prototype.push
@@ -27,17 +28,19 @@ export default new VueRouter({
             path: '/home',
             component: Home,
             // meta:{
-            //     // 自定义属性只支持在meta中扩展，每个route对象的属性是固定的
-            //     show:true, // meta is used to customize a route's display
+            // 自定义属性只支持在meta中扩展，每个route对象的属性是固定的
+            // show:true, // meta is used to customize a route's display
             // }
+        },
+        {
+            name: 'service',
+            path: '/service',
+            component: Service,
         },
         {
             name: 'CountDown',
             path: '/countdown',
             component: CountDown,
-            //     meta:{
-            //         show:false
-            //     }
         },
         {
             path: '*',

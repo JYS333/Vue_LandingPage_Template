@@ -50,14 +50,14 @@ export default {
 <style lang="less" scoped>
 .datacard-container{
     padding: 0 200px;
-    margin: 90px 0;
+    margin: 120px 0;
     .datacard-panel{
         cursor: pointer;
         min-width: 250px;
         height: 300px;
         background: #FCFCFF;
         border-radius: 15px;
-        box-shadow: 0px 20px 30px 0 rgba(226, 226, 226, 0.2);
+        box-shadow: 0px 10px 20px 0 rgba(107, 107, 107, 0.2);
 
         display: flex;
         flex-direction: column;

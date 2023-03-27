@@ -6,13 +6,13 @@
             </div>
             <div class="nav-menu">
                 <div class="menu-item">
-                    Home
+                    <router-link style="color: currentColor;" to="/home">Home</router-link>
                 </div>
                 <!-- <div class="menu-item">
                     Contact
                 </div> -->
                 <div class="menu-item">
-                    Service
+                    <router-link style="color: currentColor;" to="/service">Services</router-link>
                 </div>
                 <div class="menu-item">
                     <router-link style="color: currentColor;" to="/countdown">CountDown</router-link>
