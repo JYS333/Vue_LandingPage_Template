@@ -21,7 +21,7 @@
         </div>
         <div class="nav-right">
             <div class="nav-doc">
-                Document
+                <router-link style="color: currentColor;" to="/document">Document</router-link>
             </div>
             <div class="nav-media">
                 <img src="../../assets/github.png" alt="">

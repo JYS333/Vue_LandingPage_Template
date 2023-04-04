@@ -1,5 +1,5 @@
 <template>
-    <div class="numina-container">
+    <div class="wrap-container">
         <!-- 导航条 -->
         <Navigator />
         <!-- 轮播图 -->
@@ -20,6 +20,7 @@
                 </el-row>
             </div>
             <InfoCardVue />
+            <QuestionListVue />
         </div>
         <!-- 底部 -->
         <Footer></Footer>
@@ -45,6 +46,7 @@ import DataCard from '@/components/DataCard/DataCard.vue';
 import InfoCardVue from '@/components/InfoCard/InfoCard.vue';
 import PieChart from '@/components/PieChart/PieChart.vue';
 import AreaChart from '@/components/AreaChart/AreaChart.vue';
+import QuestionListVue from '@/components/QuestionList/QuestionList.vue';
 
     export default{
         components:{
@@ -55,7 +57,8 @@ import AreaChart from '@/components/AreaChart/AreaChart.vue';
             DataCard,
             InfoCardVue,
             PieChart,
-            AreaChart
+            AreaChart,
+            QuestionListVue,
         },
         data() {
             return {
@@ -66,7 +69,7 @@ import AreaChart from '@/components/AreaChart/AreaChart.vue';
 </script>
 
 <style lang="less" scoped>
-.numina-container{
+.wrap-container{
     padding-top: 80px;
     width: 100%;
     // height:100%;

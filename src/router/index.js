@@ -6,7 +6,8 @@ Vue.use(VueRouter);
 // import router
 import Home from '@/pages/Home/Home';
 import CountDown from '@/pages/CountDown/CountDown.vue';
-import Service from '@/pages/Service/Service.vue'
+import Service from '@/pages/Service/Service.vue';
+import Document from '@/pages/Document/Document.vue';
 
 // push
 const originalPush = VueRouter.prototype.push
@@ -41,6 +42,11 @@ export default new VueRouter({
             name: 'CountDown',
             path: '/countdown',
             component: CountDown,
+        },
+        {
+            name: 'Document',
+            path: '/document',
+            component: Document,
         },
         {
             path: '*',

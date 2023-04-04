@@ -4,7 +4,7 @@
             <el-carousel-item class="cal-panel" :key="11">
                 <div class="inner-panel">
                     <div class="top">We have 24/7 supported team</div>
-                    <div class="bottom">Best Invest Company Scince 2020</div>
+                    <div class="bottom">Best Invest Company Scince 2023 <span style="font-size: 16px;">(Doge)</span></div>
                     <div class="more">Learn More</div>
                 </div>
                 <el-image class="image" :src="require(`@/assets/11.jpg`)" fit="fill"></el-image>

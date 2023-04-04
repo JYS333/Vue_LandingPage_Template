@@ -65,10 +65,11 @@ export default {
                 //     thisChart.resize();  //页面大小变化后Echarts也更改大小
                 // });
             }
-        }
+        },
     },
-    mounted(){
+    mounted() {
         this.setMyEchart();
+        // window.addEventListener("scroll", this.scrolling, true);
     },
 }
 </script>

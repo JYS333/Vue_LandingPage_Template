@@ -1,7 +1,7 @@
 const { defineConfig } = require('@vue/cli-service');
 
-let proxyTarget = 'https://itf-pshop.lining.com'; // test
-// let proxyTarget = 'https://itf-pshop.lining.com'; // prod
+let proxyTarget = 'https://xxx.com'; // test
+// let proxyTarget = 'https://xxx.com'; // prd
 
 module.exports = defineConfig({
   transpileDependencies: true,
