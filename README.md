@@ -3,3 +3,5 @@
 - run "npm run start" and check your browser
 
 - 安装nodejs以后执行`npm install`下载所有依赖，运行`npm run start`启动项目
+
+![localhost_3001_home](/Users/sunjiayi/Desktop/localhost_3001_home.png)
