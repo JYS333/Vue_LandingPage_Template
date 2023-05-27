@@ -8,6 +8,7 @@ import Home from '@/pages/Home/Home';
 import CountDown from '@/pages/CountDown/CountDown.vue';
 import Service from '@/pages/Service/Service.vue';
 import Document from '@/pages/Document/Document.vue';
+import Summary from '@/pages/Summary/Summary.vue';
 
 // push
 const originalPush = VueRouter.prototype.push
@@ -39,12 +40,17 @@ export default new VueRouter({
             component: Service,
         },
         {
-            name: 'CountDown',
+            name: 'countDown',
             path: '/countdown',
             component: CountDown,
         },
         {
-            name: 'Document',
+            name: 'summary',
+            path: '/summary',
+            component: Summary,
+        },
+        {
+            name: 'document',
             path: '/document',
             component: Document,
         },

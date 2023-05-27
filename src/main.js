@@ -10,6 +10,9 @@ import './styles/index.scss' // import basic elemetui style
 Vue.use(ElementUI);
 // import '@/mock/mockServe'; // use mockjs
 
+import VueClipboard from 'vue-clipboard2'
+Vue.use(VueClipboard); // 引入剪切板
+
 import * as echarts from 'echarts';
 Vue.prototype.$echarts = echarts;
 

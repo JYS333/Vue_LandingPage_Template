@@ -15,6 +15,9 @@
                     <router-link style="color: currentColor;" to="/service">Services</router-link>
                 </div>
                 <div class="menu-item">
+                    <router-link style="color: currentColor;" to="/summary">Summary</router-link>
+                </div>
+                <div class="menu-item">
                     <router-link style="color: currentColor;" to="/countdown">CountDown</router-link>
                 </div>
             </div>
