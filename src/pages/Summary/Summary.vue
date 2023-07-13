@@ -42,6 +42,10 @@
             <el-button v-clipboard:copy="'['+money.toString()+']'" v-clipboard:success="onCopySuccess" v-clipboard:error="onCopyError">Copy Money</el-button> -->
         </div>
     </div>
+    <div>
+
+    </div>
+    <Footer></Footer>
 </div>
 </template>
 
@@ -54,10 +58,10 @@ export default {
             // date:['05/23', '05/25', '05/26', '05/27', '05/28', '05/29'], // 初始化日期数据（x轴）
             // money: [774116, 774232, 774390, 774490, 774690, 774800, 774900], // 初始化资产数据（y轴）
             date:[  // 初始化日期数据（x轴）
-            '05/23','05/25'
+            '05/23','05/25','05/28','05/29','06/01','06/02','06/06','06/09'
             ], 
             money: [ // 初始化资产数据（y轴）
-            774116,774274
+            774116,774274,774317,774395,774595,774738,774816,784352
             ], 
             total: '',
             option:{},
@@ -201,7 +205,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .el-message {
     min-width: 100px !important;
 }

@@ -6,25 +6,36 @@
             </div>
             <div class="nav-menu">
                 <div class="menu-item">
-                    <router-link style="color: currentColor;" to="/home">Home</router-link>
+                    <router-link active-class="is-active" to="/home">Home</router-link>
                 </div>
                 <!-- <div class="menu-item">
                     Contact
                 </div> -->
                 <div class="menu-item">
-                    <router-link style="color: currentColor;" to="/service">Services</router-link>
+                    <router-link active-class="is-active" to="/service">Services</router-link>
                 </div>
                 <div class="menu-item">
-                    <router-link style="color: currentColor;" to="/summary">Summary</router-link>
+                    <router-link active-class="is-active" to="/summary">Summary</router-link>
                 </div>
                 <div class="menu-item">
-                    <router-link style="color: currentColor;" to="/countdown">CountDown</router-link>
+                    <el-dropdown placement="bottom">
+                        <span class="el-dropdown-link">
+                            Catogery
+                        </span>
+                        <el-dropdown-menu slot="dropdown">
+                            <el-dropdown-item><router-link active-class="is-active" to="/category1">Category1</router-link></el-dropdown-item>
+                            <el-dropdown-item><router-link active-class="is-active" to="/category2">Category2</router-link></el-dropdown-item>
+                        </el-dropdown-menu>
+                    </el-dropdown>
+                </div>
+                <div class="menu-item">
+                    <router-link active-class="is-active" to="/countdown">CountDown</router-link>
                 </div>
             </div>
         </div>
         <div class="nav-right">
             <div class="nav-doc">
-                <router-link style="color: currentColor;" to="/document">Document</router-link>
+                <router-link active-class="is-active" to="/document">Document</router-link>
             </div>
             <div class="nav-media">
                 <img src="../../assets/github.png" alt="">
@@ -64,6 +75,12 @@ export default {
 </script>
 
 <style lang="less" scoped>
+.el-dropdown {
+    display: inline-block;
+    position: relative;
+    color: #2f3b5e;
+    font-size: 16px;
+}
 .isWhite{
     background: #FCFCFF;
     box-shadow: 0 15px 30px 0 rgba(60, 72, 88, 0.05);
@@ -98,7 +115,6 @@ export default {
                 cursor: pointer;
                 font-size: 16px;
                 padding: 0 10px;
-                color: #2f3b5e;
             }
         }
     }
@@ -134,5 +150,12 @@ export default {
             font-size: 14px;
         }
     }
+}
+a{
+    text-decoration: none;
+    color: #2f3b5e;
+}
+.is-active{
+    color: #28D0A8;
 }
 </style>

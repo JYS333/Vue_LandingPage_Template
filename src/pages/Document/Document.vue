@@ -36,6 +36,7 @@
         </div>
         <div class="image"><el-image class="image" style="width: 300px;" :src="require('../../assets/wechat.jpeg')" fit="cover"></el-image></div>
     </div>
+    <el-button type="primary">主要按钮</el-button>
   </div>
 </template>
 
